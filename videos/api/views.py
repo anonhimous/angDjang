@@ -42,7 +42,7 @@ class VideoFeatured(generics.ListAPIView):
 	def get_queryset(self):
 		query = self.request.GET.get("q")
 		if query:
-			qs = Video.objects.featured().search()
+			qs = Video.objects.featured().search(query)
 		else:
 			qs = Video.objects.featured()
 		return qs
