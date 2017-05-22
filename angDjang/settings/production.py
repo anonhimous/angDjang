@@ -24,7 +24,7 @@ EMAIL_USE_TLS = True
 
 DEFAULT_FROM_EMAIL = 'Ibraheem <ibrokolawole@gmail.com>'
 ADMINS = (
-    ('You', 'you@email.com'),
+    ('Ibraheem', 'ibrokolawole@gmail.com'),
 )
 
 MANAGERS = ADMINS
