@@ -1,0 +1,1 @@
+web: gunicorn angDjang.wsgi --log-file -
