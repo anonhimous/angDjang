@@ -13,7 +13,7 @@ SECRET_KEY = '+1yqe)iucex-j0qdn%r6acm)pieqj)k*75qw)n0!ftcnc$e28_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['angdjang.herokuapp.com']
 
 
 EMAIL_HOST = 'smtp.sendgrid.net'
